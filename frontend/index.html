@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cuan.in - Rekomendasi Usaha UMKM Terpersonalisasi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style></style>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <h1>cuan.in</h1>
+      <p style="opacity: 0.9; margin-top: 0.5rem;">Rekomendasi Bisnis UMKM Terpersonalisasi untuk Kesuksesan Anda</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="form-section" id="formSection">
+      <h2 style="margin-top: 0; margin-bottom: 2rem; color: var(--dark);">Profil Bisnis Anda</h2>
+      
+      <div class="form-group">
+        <label>Minat Bisnis</label>
+        <div class="percentage-select" id="businessInterest">
+          <button class="percentage-btn">Produk Konsumen</button>
+          <button class="percentage-btn">Jasa</button>
+          <button class="percentage-btn">Teknologi Digital</button>
+          <button class="percentage-btn">Pertanian dan Peternakan</button>
+          <button class="percentage-btn">Kreatif dan Media</button>
+          <button class="percentage-btn">Properti dan Konstruksi</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Target Pasar</label>
+        <div class="percentage-select" id="targetMarket">
+          <button class="percentage-btn">Bawah</button>
+          <button class="percentage-btn">Menengah</button>
+          <button class="percentage-btn">Atas</button>
+          <button class="percentage-btn">Mewah</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Deskripsi Usaha</label>
+        <textarea id="description" placeholder="Contoh: Usaha kuliner dengan target pasar usia 20-35 tahun..." rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input id="email" type="email" placeholder="contoh@emailanda.com" />
+      </div>
+
+      <center>
+        <button id="submitBtn" class="submit-btn">📈 Dapatkan Rekomendasi</button>
+      </center>
+    </div>
+
+    <div class="loading" id="loadingSection">
+      <div class="loading-spinner"></div>
+      <p style="margin-top: 1rem;">Sedang menganalisis profil bisnis Anda...</p>
+    </div>
+
+    <div class="result-section" id="resultSection" style="display: none;">
+      <h2 style="margin-top: 0;">Rekomendasi Bisnis UMKM</h2>
+      
+      <div id="primaryRecommendation" class="card-section">
+        <!-- Primary recommendation will be inserted here -->
+      </div>
+
+      <h3>Rekomendasi Alternatif</h3>
+      <div id="alternativeRecommendations" class="alternative-recommendations">
+        <!-- Alternative recommendations will be inserted here -->
+      </div>
+
+      <div class="card-section">
+        <h3>Faktor Pendukung Kesuksesan</h3>
+        <ul id="successFactors" class="factors-list">
+          <!-- Success factors will be inserted here -->
+        </ul>
+      </div>
+
+      <div class="card-section">
+        <h3>Tantangan & Solusi</h3>
+        <ul id="challenges" class="challenges-list">
+          <!-- Challenges will be inserted here -->
+        </ul>
+      </div>
+
+      <div class="card-section">
+        <h3>Langkah Selanjutnya</h3>
+        <ol id="nextSteps" class="steps-list">
+          <!-- Next steps will be inserted here -->
+        </ol>
+      </div>
+
+      <center>
+        <button id="backToFormBtn" class="submit-btn" style="background: var(--accent); margin-top: 2rem;">
+          ↩ Kembali ke Form
+        </button>
+      </center>
+    </div>
+  </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
