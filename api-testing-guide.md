@@ -1,6 +1,6 @@
 # Panduan Testing API cuan.in
 
-Dokumen ini berisi petunjuk cara melakukan testing pada API backend cuan.in menggunakan Postman atau curl.
+Dokumen ini berisi petunjuk cara melakukan testing pada API backend cuan.in menggunakan   curl hehe.
 
 ## Menjalankan Backend
 
@@ -88,12 +88,12 @@ curl -X POST \
 
 ## API Documentation
 
-Setelah FastAPI berjalan, Anda dapat mengakses dokumentasi API interaktif di:
+Setelah FastAPI berjalan, lihat docum:
 
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
 
-Dokumentasi ini memungkinkan Anda mencoba endpoint API langsung dari browser.
+Dokumentasi ini memungkinkan  mencoba endpoint API langsung dari browser.
 
 ## Troubleshooting
 
@@ -114,7 +114,7 @@ Dokumentasi ini memungkinkan Anda mencoba endpoint API langsung dari browser.
    Kemungkinan penyebab:
    - Format prompt tidak sesuai
    - Masalah dengan koneksi ke API OpenRouter
-   - Rate limiting dari OpenRouter
+   - Rate limiting dari OpenRouter (soalnya kalo saya pake free)
    
    Solusi:
    - Periksa log server untuk detil error
