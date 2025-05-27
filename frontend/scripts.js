@@ -51,7 +51,7 @@ document.getElementById('submitBtn').addEventListener('click', async function() 
     
     try {
     // Make API request to backend
-    const response = await fetch('http://localhost:8000/recommendations', {
+    const response = await fetch('https://farwew-back-endcuanin.hf.space/recommendations', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json',
